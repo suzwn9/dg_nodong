@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+@font-face {
+    @font-face {
+        font-family: 'SUIT-Medium';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+#bg{
+    background-color: rgb(0, 0, 0);
+}
+
+#container{
+    position: relative;
+    width: 128rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@keyframes blink-effect { 50% { opacity: 20%; } } 
+.name{
+    animation: blink-effect 1s step-end infinite; 
+}
+
+.pen{
+    animation: blink-effect 1s step-end infinite; 
+
+}
+
+
+.blockBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.olraga{
+    position: relative;
+}
+
+.olraga .name{
+    position: absolute;
+    top: 75rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'SUIT-Medium';
+    font-size: 36px;
+    font-weight: ;
+
+
+    margin: 3rem 0;
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.footer .text{
+    position: absolute;
+    top: 40rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'SUIT-Medium';
+    font-size: 18px;
+    font-weight: ;
+    line-height: 28px;
+
+}
+
+
+.olraga .name: :hover{
+    opacity: 1;
+}
+
+
+
+#main_img{
+    position: relative;
+    width: 120rem;
+    margin-top: 2rem;
+}
+
+
+#hd{
+    text-align: center;
+    font-family: 'SUIT-Medium';
+    font-size: 2.8rem;
+    color: rgb(211, 211, 203) ;
+    padding-top: 3rem;
+}
+
+.pop_img{
+    margin: 3rem 0;
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.pop_img:hover{
+    opacity: 1;
+}
+
+/*@keyframes blink-effect {
+    50% {
+      opacity: 20%;
+    }
+  }*/
+
+
+
+
+.wrap{
+    position: relative;
+    display: block;
+    top: 1px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden
+}
+
+.wrap :hover{
+    /*animation: blink-effect 3s step-end infinite;
+    */
+
+    transform: scale(1.1);
+    transition: transform 1s;
+    filter: brightness(150%);
+}
+
+.pop_text{
+    position: absolute;
+    text-align: left;
+    width: 400px;
+    height: 400px;
+    top: 35%;
+    left: 39%;
+    font-family: 'dalmoori';
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+#rt_img{
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    top: 0;
+
+}
+
+
+#stud{
+    position: absolute; 
+    left: 30rem;
+    top: 10rem;
+}
+#jolup{
+    position: absolute;
+    left: 103rem;
+    top: 70rem;
+}
+
+#pen2{
+    position: absolute;
+    left: 0;
+    top: 50rem;
+}
+
+#pen6{
+    position: absolute;
+    left: 105rem;
+    top: 40rem;
+}
+
+#pen7{
+    position: absolute;
+    top: 120rem;
+    left: 100rem;
+}
+#pen5{
+    position: absolute;
+    top: 280rem;
+    left: 100rem;
+}
+#alba{
+    position: absolute;
+    left: 60rem;
+    top: 150rem;
+}
+
+#ban{position: absolute;
+    left: 110rem;
+    top: 230rem;
+}
+
+#neck{ position: absolute;
+    left: 800px;
+    top: 320rem;
+}
+
+#pen9{
+    position: absolute;
+    top: 210rem;
+    left: 80rem;
+}
+
+#resume{
+    position: absolute;
+    left: 90rem;
+    top: 345rem;
+}
+
+#chzik{
+    position: absolute;
+    left: 105rem;
+    top: 330rem;
+}
+#bank{
+    position: absolute;
+    top: 365rem;
+    left: 90rem;
+}
+
+#pen8{
+    position: absolute;
+    top: 400rem;
+    left: 100rem;
+}
+
+#pen{
+    position: absolute;
+    top: 220rem;
+    left: 20rem;
+}
+
+#pen3{
+    position: absolute;
+    top: 325rem;
+
+}
+
+#apt{
+    position: absolute;
+    left: 1000px;
+    top: 410rem;}
+
+#zip{
+    position: absolute;
+    top: 450rem;
+    left: 90rem;
+}
+
+
+
+#gom{
+    position: absolute;
+    left: 75rem;
+    top: 175rem;
+}
+
+#alba2{
+    position: absolute;
+    left: 95rem;
+    top: 150rem;
+}
+
+#ban_r{
+    position: absolute;
+    left: 80rem;
+    top: 240rem;
+}
+
+
+
+
+
+#money{
+    position: absolute;
+    left: 0;
+    top: 170rem; }
+
+#give{
+    position: absolute;
+    top: 90rem;
+    left: 0rem;
+}
+
+#blue_pen{
+    position: absolute;
+    top: 120rem;
+    left: 0rem;
+}
+
+
+#coin2{
+    position: absolute;
+    top: 285rem;
+    left: 0rem;
+}
+
+#coin{
+    position: absolute;
+    top: 270rem;
+    left: 20rem;
+}
+
+#pocrak{
+    position: absolute;
+    top: 375rem;
+    left: 0rem;
+}
+
+
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    top: 483rem;
+}
+
+
+
+.scrollBox{
+    opacity: 0;
+    transition-duration: 0.5s;
+
+}
+
+.scrollBox.show{
+    opacity: 1;
+}
+
+.scrollDiv{
+    opacity: 0;
+}
+/*스크롤 애니메이션 이미지* fade in../
+
+
+.scrollDiv{
+    opacity: 0;
+}
+
+.scrollAni{
+}
+
+.scrollAni.show{
+    opacity: 1;
+    transform: none;
+}
